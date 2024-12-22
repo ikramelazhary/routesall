@@ -50,7 +50,7 @@ const Comp1 = () => {
               onChange={(e) => setCouleur(e.target.value)}
             />
           </label>
-          <button type="button" onClick={handleConfirm}>
+          <button className="bttttn" type="button" onClick={handleConfirm}>
             Confirmer
           </button>
         </form>

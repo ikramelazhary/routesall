@@ -38,7 +38,7 @@ justify-content: center;
     border-radius: 4px;
   }
   
-  button {
+  .bttttn {
     background-color: #007bff;
     color: white;
     border: none;
@@ -47,7 +47,7 @@ justify-content: center;
     cursor: pointer;
   }
   
-  button:hover {
+  .bttttn:hover {
     background-color: #0056b3;
   }
   

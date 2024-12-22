@@ -87,7 +87,7 @@ function Profils() {
           type="file"
           onChange={handleImageChange}
         /><br/>
-        <button type="submit">Ajouter Profil</button>
+        <button className='bnnt' type="submit">Ajouter Profil</button>
       </form>
 
       {/* Cartes des profils */}

@@ -140,13 +140,13 @@
     cursor: pointer;
   }
   
-  .edit-btn {
+  /* .edit-btn {
     color: #6c5ce7;
   }
   
   .delete-btn {
     color: #e74c3c;
-  }
+  } */
   
   .edit-btn:hover,
   .delete-btn:hover {
