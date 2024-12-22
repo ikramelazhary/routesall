@@ -1,0 +1,85 @@
+/* Global styles for the navbar */
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(to right,#6c5b7c, #c06c84);
+  color: white;
+  position: relative;
+  height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ad58c5;
+}
+
+/* Hidden menu (for burger) */
+.burger-menu {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.burger-menu:hover {
+  color: #4CAF50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .burger-menu {
+    display: block;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    transform: translateY(-200%);
+  }
+
+  nav.open {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,127 @@
+/* Conteneur principal */
+.cont {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Titre */
+  .titre {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #302e32;
+  }
+  
+  /* Formulaire */
+  .formulairee {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .formulairee input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .formulairee button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .formulairee button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Cartes */
+  .cards-containerr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .carded {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .carded:hover {
+    transform: scale(1.05);
+  }
+  
+  .carded img {
+   
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .content {
+    padding: 15px;
+  }
+  
+  .content h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .content p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .voir-plus {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .voir-plus:hover {
+    background-color: #218838;
+  }
+  /* Actions group: Voir Plus + Supprimer */
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.supprimer {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background 0.3s ease;
+}
+
+.supprimer:hover {
+  background-color: #c82333;
+}
