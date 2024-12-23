@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background: linear-gradient(to right,#6c5b7c, #c06c84);
+  background: linear-gradient(to left,#585e4c, #939F5C);
   color: white;
   position: relative;
   height: 40px;
@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ad58c5;
+  color: #564f57;
 }
 
 /* Hidden menu (for burger) */

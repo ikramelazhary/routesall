@@ -75,7 +75,7 @@ const Comp3 = () => {
           textAlign: "center",
         }}
       >
-        <h1 style={{ color: "#007BFF", marginBottom: "20px" }}>
+        <h1 style={{ color: "#939F5C", marginBottom: "20px" }}>
           Recherche par service
         </h1>
         <div style={{ marginBottom: "20px" }}>
@@ -101,7 +101,7 @@ const Comp3 = () => {
             style={{
               marginLeft: "10px",
               padding: "10px 20px",
-              backgroundColor: "#007BFF",
+              backgroundColor: "#939F5C",
               color: "white",
               border: "none",
               borderRadius: "4px",
@@ -140,9 +140,7 @@ const Comp3 = () => {
                 }}
               >
                 <strong>Nom :</strong> {salarie.nom}, <strong>Prénom :</strong>{" "}
-                {salarie.prenom}, <strong>Fonction :</strong>{" "}
-                {salarie.fonction}, <strong>Service :</strong>{" "}
-                {salarie.service}
+                {salarie.prenom}
               </li>
             ))}
           </ul>

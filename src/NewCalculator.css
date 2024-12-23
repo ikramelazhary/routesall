@@ -31,7 +31,7 @@
   max-width: 300px;
   height: 400px;
   margin: 50px auto;
-  background-color: #653078; /* Purple */
+  background-color: #1c2719; /* Purple */
   border-radius: 30px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
   overflow: hidden;
@@ -63,7 +63,7 @@
   border: none;
   border-radius: 50px;
   color: white;
-  background-color: #9c67b2; /* Light Purple */
+  background-color: #31412c; /* Light Purple */
   transition: all 0.3s ease;
   cursor: pointer;
   display: flex;
@@ -72,11 +72,11 @@
 }
 
 .btn:hover {
-  background-color: #7d3c98; /* Darker purple */
+  background-color: #546d50; /* Darker purple */
 }
 
 .clear {
-  background-color: #e92813; /* Red */
+  background-color: #e99313; /* Red */
   grid-column: span 1;
   height: 50px;
   font-size: 1.5rem;
@@ -96,7 +96,7 @@
 }
 
 .equals {
-  background-color: #10de66; /* Green */
+  background-color: #5ab52c; /* Green */
   color: white;
   grid-column: span 1;
   height: 50px;
@@ -120,7 +120,7 @@
   border: none;
   border-radius: 50px;
   color: white;
-  background-color: #9c67b2; /* Light Purple */
+  background-color: #31412c; /* Light Purple */
   transition: all 0.3s ease;
   cursor: pointer;
   display: flex;

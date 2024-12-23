@@ -74,12 +74,12 @@ const Comp1 = () => {
           <h3>Accéder à d'autres fonctionnalités :</h3>
           <ul style={{ listStyle: "none", padding: 0 }}>
             <li style={{ marginBottom: "10px" }}>
-              <Link to="/compo2" style={{ textDecoration: "none", color: "blue" }}>
+              <Link to="/compo2" style={{ fontWeight: "bold" , color: "gray" }}>
                 Voir la liste des salariés
               </Link>
             </li>
             <li>
-              <Link to="/compo3" style={{ textDecoration: "none", color: "blue" }}>
+              <Link to="/compo3" style={{ fontWeight: "bold" , color: "gray" }}>
                 Recherche par service
               </Link>
             </li>
