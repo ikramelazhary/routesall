@@ -23,7 +23,7 @@ export default function Nav() {
         <Link to="/profils" onClick={() => setIsMenuOpen(false)}>Profils List</Link>
         <Link to="/api" onClick={() => setIsMenuOpen(false)}>API-Country</Link>
         <Link to="/todolist" onClick={() => setIsMenuOpen(false)}>To-Do List</Link>
-        <Link to="/compo1" onClick={() => setIsMenuOpen(false)}>CC1</Link>
+        
       </nav>
     </header>
   );

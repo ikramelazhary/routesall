@@ -7,9 +7,7 @@ import Profils from "./Profils";
 import NewCalculator from "./NewCalculator";
 import Api from "./Api";
 import Todolist from "./Todolist";
-import Comp1 from "./Comp1";
-import Comp2 from "./Comp2";
-import Comp3 from "./Comp3";
+
 
 
 
@@ -27,9 +25,6 @@ function App() {
         <Route path="/newcalcul" element={<NewCalculator/>}/>
         <Route path="/api" element={<Api/>}/>
         <Route path="/todolist" element={<Todolist/>}/>
-       <Route path="/compo1" element={<Comp1/>}/>
-       <Route path="/compo2" element={<Comp2/>}/>
-       <Route path="/compo3" element={<Comp3/>}/>
       </Routes>
     </div>
   );
